@@ -18,8 +18,7 @@ function TodoForm(props) {
             <form className='todo-form' onSubmit={formHndler}>
 
                 <input value={input} onChange ={(e)=>setInput(e.target.value)} className='todo-input'placeholder='what do you want to do to day...' />
-                <button  type="submit"className='todo-button' >Add List</button>
-
+               
 
 
             </form>

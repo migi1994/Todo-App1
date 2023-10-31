@@ -43,6 +43,7 @@ background-repeat: no-repeat;
 }
 
 h1 {
+  color:white;
   margin: 32px 0;
   font-size: 33px;
 }
@@ -62,7 +63,7 @@ h1 {
   justify-content: space-evenly;
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid rgba(17, 120, 255, 0.418);
+  border: 2px solid rgba(218, 218, 218, 0.815);
   outline: none;
   width: 60%;
 
@@ -74,7 +75,7 @@ h1 {
 
 .todo-button {
   display: flex;
- justify-content: space-evenly;
+  justify-content: space-evenly;
  width: 15%;
   position: absolute;
   padding: 16px;
@@ -128,6 +129,11 @@ h1 {
   background-color: black;
 }
 @media  only screen and (max-width:600px){
+
+.todo-app{
+     width: 100%;
+}
+
        .todo-input{
         display: flex;
         flex-direction: column;
@@ -136,10 +142,11 @@ h1 {
          
        }
        .todo-button{
+   
           display: flex;
           justify-content: space-around;
           flex-direction: column;
-          width: 42%;
+          width: 45%;
           padding-left: 50px;
     
 
